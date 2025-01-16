@@ -1,5 +1,3 @@
-# README for Monocular Depth Implementation
-
 ## Overview
 This repository contains an implementation of monocular depth estimation using a macOS webcam. The project leverages pre-trained models to infer depth from video streams captured by the webcam.
 
@@ -46,13 +44,3 @@ After converting the weights to ONNX, you can use the `webcam_depth.py` script t
 ## Future Work
 - **Reduce Lag**: Work is ongoing to minimize latency when streaming video and performing monocular depth estimation (referred to as inferencing).
 - **C++ Integration**: Future plans include utilizing ONNX in C++ for enhanced performance and flexibility.
-
-## License
-This project is licensed under [insert license here].
-
----
-
-Feel free to modify any sections as needed, especially regarding licensing or additional instructions specific to your repository.
-
-Citations:
-[1] https://github.com/DepthAnything/Depth-Anything-V2/tree/main?tab=readme-ov-file
