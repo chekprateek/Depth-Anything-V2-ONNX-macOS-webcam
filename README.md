@@ -42,5 +42,5 @@ After converting the weights to ONNX, you can use the `webcam_depth.py` script t
    ```
 
 ## Future Work
-- **Reduce Lag**: Work is ongoing to minimize latency when streaming video and performing monocular depth estimation (referred to as inferencing).
+- **Reduce Lag**: Work is ongoing to minimize latency when streaming video and performing monocular depth estimation (inferencing).
 - **C++ Integration**: Future plans include utilizing ONNX in C++ for enhanced performance and flexibility.
